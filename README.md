@@ -24,3 +24,11 @@ super users,
         |                       | other resources from each other and from regular users|
         |                       |  on the system.                                       |    
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## View User info
+### of currenty logged in user
+![image](https://user-images.githubusercontent.com/51336081/187587322-e0ee38e8-5582-4712-a0e7-736372f773ae.png)
+
+### of specific user
+![image](https://user-images.githubusercontent.com/51336081/187587398-c552ee26-c6bb-432f-9e35-ba7352b9292c.png)
