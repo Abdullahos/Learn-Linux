@@ -87,3 +87,8 @@ su -c
 In some cases, the root user's account may not have a valid password at all for security reasons.
 In this case, users cannot log in to the system as root directly with a password, and su cannot be
 used to get an interactive shell. One tool that can be used to get root access in this case is **sudo**.
+
+```
+abdullah@MyMachine:/$ sudo apt-get install curl
+```
+will require the password of the current logged user **(abdullah)**
