@@ -32,3 +32,24 @@ super users,
 
 ### of specific user
 ![image](https://user-images.githubusercontent.com/51336081/187587398-c552ee26-c6bb-432f-9e35-ba7352b9292c.png)
+
+## View Owner of a file
+```
+ls -la <filePath>
+```
+![image](https://user-images.githubusercontent.com/51336081/187587593-8dbdef5f-2fee-4c3b-8bff-709dfc9824df.png)
+
+## View Owner of the current directory
+ls -ld ..
+![image](https://user-images.githubusercontent.com/51336081/187588013-faa54980-acbf-4b13-b0fa-ce75f781476a.png)
+
+## Show proccess of the current user
+```
+ps -au
+```
+## Information about users
+```
+cat /etc/passwd
+```
+user: pass: uid: group_id: real name: home dir: default bash program 
+
