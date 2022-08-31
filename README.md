@@ -53,3 +53,27 @@ cat /etc/passwd
 ```
 user: pass: uid: group_id: real name: home dir: default bash program 
 
+## The same is for Groups
+group is a collection of users that need to share access to files and other system resources.
+Linux store them in a /etc/group
+u can found it by:
+```
+cat /etc/group
+```
+## Gaining Superuser Access
+**This unlimited privilege, however, comes with responsibility. The root user has unlimited power to
+damage the system: remove files and directories, remove user accounts, add back doors, and so
+on. If the root user's account is compromised, someone else would have administrative control of
+the system. Throughout this course, administrators are encouraged to log in as a normal user and
+escalate privileges to root only when needed.**
+
+** By logging in as the superuser, the entire desktop environment unnecessarily runs
+with administrative privileges. In that situation, any security vulnerability which would
+normally only compromise the user account has the potential to compromise the
+entire system. **
+
+## To temporarily gain superuser privileges
+use su, sudo, or PolicyKit
+
+## Switching Users
+The **su** command allows users to switch to a different user account
