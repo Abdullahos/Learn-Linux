@@ -79,3 +79,11 @@ use su, sudo, or PolicyKit
 The **su** command allows users to switch to a different user account
 
 If you omit the user name, the su or su - command attempts to switch to **root** by default
+
+## Running command as another user
+su -c
+
+## To Get root access:
+In some cases, the root user's account may not have a valid password at all for security reasons.
+In this case, users cannot log in to the system as root directly with a password, and su cannot be
+used to get an interactive shell. One tool that can be used to get root access in this case is **sudo**.
