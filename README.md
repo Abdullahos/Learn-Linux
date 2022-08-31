@@ -77,3 +77,5 @@ use su, sudo, or PolicyKit
 
 ## Switching Users
 The **su** command allows users to switch to a different user account
+
+If you omit the user name, the su or su - command attempts to switch to **root** by default
