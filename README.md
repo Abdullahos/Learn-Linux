@@ -67,10 +67,10 @@ on. If the root user's account is compromised, someone else would have administr
 the system. Throughout this course, administrators are encouraged to log in as a normal user and
 escalate privileges to root only when needed.**
 
-** By logging in as the superuser, the entire desktop environment unnecessarily runs
+**By logging in as the superuser, the entire desktop environment unnecessarily runs
 with administrative privileges. In that situation, any security vulnerability which would
 normally only compromise the user account has the potential to compromise the
-entire system. **
+entire system.
 
 ## To temporarily gain superuser privileges
 use su, sudo, or PolicyKit
